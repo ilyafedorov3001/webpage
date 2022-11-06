@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html style="color: #121212;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;">
 
