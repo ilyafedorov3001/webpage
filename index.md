@@ -6,7 +6,7 @@
     <meta name="description" content="Сайт Домашняя страница содержит информацию и задания"> 
     <title>Домашняя страница</title>
     <link rel="stylesheet" href="css/hph.css">
-    <link rel="stylesheet" href="dop/hpanim.css">
+    <link rel="stylesheet" href="css/hpanim.css">
 </head>
 
 <body>
