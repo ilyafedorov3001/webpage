@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Задание 3.2</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+
+<body>
+    <h1>Пример формы регистрации сайта</h1>
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+
+        <label for="login">Логин:</label>
+        <input class="yy" type="text" name="log" id="login" style="height:22px;">
+        <br>
+
+        <label for="passwo">Пароль:</label>
+        <input class="fip yy" type="password" name="pass" id="passwo">
+        <br>
+
+        <label for="urrl">URL-адрес сайта:</label>
+        <input class="fip yy" type="text" name="inic" value="https://" id="urrl">
+        <br>
+
+        <label for="nazvanie">Название сайта:</label>
+        <input class="yy" type="text" style="height: 22px" name="nazvanie" id="nazvanie">
+        <br>
+
+        <label for="dinfo">Описание сайта:</label>
+        <textarea name="dopinfo" id="dinfo"></textarea>
+        <br>
+
+        <label for="tema">Тема сайта:</label>
+        <select class="tip yy" name="tema" id="tema">
+            <option value="standart" selected>Тема не выбрана</option>
+            <optgroup label="Светлые">
+                <option value="gray">Серый</option>
+                <option value="cream">Бежевый</option>
+            </optgroup>
+            <optgroup label="Темные">
+                <option value="black">Черный</option>
+                <option value="darkblue">Синий</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <label for="baner">Баннер 88x31:</label>
+        <input class="ttrr" type="file" name="baner" id="baner">
+
+        <br>
+        <input class="vv" type="reset" value="Очистить">
+        <input class="vv" type="submit" value="Отправить">
+    </form>
+</body>
+
+</html>

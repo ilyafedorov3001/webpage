@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Задание 3.1</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+
+<body>
+    <h1>ЗАО Птицефабрика №1</h1>
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+
+        <label>Фамилия</label>
+        <input class="fip" type="text" name="fam" id="famil">
+        <br>
+
+        <label>Инициалы</label>
+        <input class="fip" type="text" name="inic" id="iniciali">
+        <br>
+
+        <label>Пароль</label>
+        <input class="fip" type="password" name="pass" id="passwo">
+        <br>
+
+        <label>Адрес получателя</label>
+        <input type="text" style="width:400px" name="mail" id="addr">
+        <br>
+
+        <label>Количество</label>
+        <input style="width:100px" type="number" name="count" id="koli">
+        <br>
+
+        <label>Тип</label>
+        <select class="tip" name="meat" id="meat">
+            <option value="kuriniy" selected>Куриные</option>
+            <option value="indeika">Индейки</option>
+            <option value="utiniy">Утиные</option>
+        </select>
+
+        <select class="tip" name="meattype" id="meattype">
+            <option value="Otbornie" selected>Отборные</option>
+            <option value="Fermerskie">Фермерские</option>
+        </select>
+        <br>
+
+        <label>Доставка</label>
+
+        <label for="poch" class="radi"><input name="dostavka" id="poch" type="radio" value="pochta">Почтой</label>
+
+        <label for="mpoch" class="radi"><input name="dostavka" id="mpoch" type="radio" value="electronno">Электронно</label>
+
+        <label for="kur" class="radi"><input name="dostavka" id="kur" type="radio" value="kurier">Курьером</label>
+        <br>
+        <label>Требуется накладная</label>
+        <input name="nakladnay" id="kur" type="checkbox">
+        <br>
+        <label>Дополнительная информация</label>
+        <textarea name="dopinfo" id="dinfo"></textarea>
+        <br>
+
+        <input class="vv" type="submit" value="Заказать">
+        <input class="vv" type="reset" value="Отменить">
+    </form>
+</body>
+
+</html>
