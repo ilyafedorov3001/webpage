@@ -1,7 +1,9 @@
 .but:hover {    
-    box-shadow:inset 0 0 5px 5px #3b00ff, 0 0 20px #3b00ff;
+    box-shadow:inset 0 0 5px white, inset 0 0 5px 5px #3b00ff, 0 0 20px #3b00ff;
+    border: 5px solid white;
     color:#3b00ff;
     font-size: 20px;
+    transform: scale(1.1);
 }
 
 .box2:hover{
